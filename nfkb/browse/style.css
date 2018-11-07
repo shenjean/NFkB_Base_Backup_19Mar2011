@@ -1,0 +1,31 @@
+#container
+{
+	font-family: Verdana;
+	font-size: 12px;
+	width: 780px;
+	margin: 10px auto;
+	background-color: #fff;
+	color: #111;
+	border: 1px solid black;
+	line-height: 130%;
+}
+
+input
+{
+	width: 300px;
+}
+
+#top
+{
+	padding: 2.5em;
+	background-color: #CCCCCC;
+	border-bottom: 1px solid black;
+}
+
+
+#test
+{
+	padding: 20px;
+	font-size: 9px;
+}
+

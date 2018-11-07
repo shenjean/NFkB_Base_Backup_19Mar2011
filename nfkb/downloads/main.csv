@@ -1,0 +1,126 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; Charset=iso-8859-1">
+<title>Security Warning</title>
+<link rel="shortcut icon" href="/images/favicon.ico"/>
+<link rel="stylesheet" type="text/css" href="/theme-stressfree/theme.css">
+<link rel="stylesheet" type="text/css" href="/theme-stressfree/niftyCorners.css">
+<link rel="stylesheet" type="text/css" href="/theme-stressfree/niftyPrint.css" media="print">
+<script type="text/javascript" src="/theme-stressfree/javascript/nifty.js"></script>
+<script type="text/javascript" src="/theme-stressfree/javascript/prototype.js"></script>
+<script type="text/javascript" src="/theme-stressfree/javascript/scriptaculous.js"></script>
+<script type="text/javascript" src="/theme-stressfree/javascript/application.js"></script>
+<link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/StressFreeSolutions-Webmin/"/><!--[if IE]>
+<style type="text/css">
+body { behavior: url(/theme-stressfree/csshover.htc); }
+</style>
+<link rel="stylesheet" type="text/css" href="/theme-stressfree/theme_ie.css" />
+<![endif]-->
+<!--[if IE 7]>
+<link rel="stylesheet" type="text/css" href="/theme-stressfree/theme_ie7.css" />
+<![endif]-->
+</head>
+<body >
+<div id="container">
+<script type="text/javascript">
+initialize('');
+</script>
+<div id="menu"><ul><li class="menuclosed" style="font-weight: bold;"><a href="/?cat=webmin">Webmin</a><ul><div class="menuitems"><li><a title="Perform manual or scheduled backups and restores of configuration files managed by Webmin modules." href="/backup-config/index.cgi"><img class='modicon' src='/icons/backup3.png' alt="Perform manual or scheduled backups and restores of configuration files managed by Webmin modules." border="0"><span class="iconitem">Backup Configuration Files</span></a></li>
+<li><a title="Allows the current Webmin user to change his language, theme and possibly password." href="/change-user/index.cgi"><img class='modicon' src='/icons/change-user.png' alt="Allows the current Webmin user to change his language, theme and possibly password." border="0"><span class="iconitem">Change Language and Theme</span></a></li>
+<li><a title="Configure global options for the Usermin user account management server." href="/usermin/index.cgi"><img class='modicon' src='/icons/usermin.png' alt="Configure global options for the Usermin user account management server." border="0"><span class="iconitem">Usermin Configuration</span></a></li>
+<li><a title="View detailed logs of actions by Webmin users." href="/webminlog/index.cgi"><img class='modicon' src='/icons/conf.png' alt="View detailed logs of actions by Webmin users." border="0"><span class="iconitem">Webmin Actions Log</span></a></li>
+<li><a title="Configure Webmin itself, such as allowed hosts, SSL, installed modules and themes." href="/webmin/index.cgi"><img class='modicon' src='/icons/webmin.png' alt="Configure Webmin itself, such as allowed hosts, SSL, installed modules and themes." border="0"><span class="iconitem">Webmin Configuration</span></a></li>
+<li><a title="Displays an index of other Webmin servers for easy linking." href="/servers/index.cgi"><img class='modicon' src='/icons/servers3.png' alt="Displays an index of other Webmin servers for easy linking." border="0"><span class="iconitem">Webmin Servers Index</span></a></li>
+<li><a title="Create Webmin users and configure which modules and features they are allowed to access." href="/acl/index.cgi"><img class='modicon' src='/icons/users.png' alt="Create Webmin users and configure which modules and features they are allowed to access." border="0"><span class="iconitem">Webmin Users</span></a></li>
+</div></ul></li><li class="menuclosed"><a href="/?cat=">Others</a><ul><div class="menuitems"><li><a title="Execute shell commands and view their output." href="/shell/index.cgi"><img class='modicon' src='/icons/shell.png' alt="Execute shell commands and view their output." border="0"><span class="iconitem">Command Shell</span></a></li>
+<li><a title="Create buttons to execute commonly used commands or edit files on your system." href="/custom/index.cgi"><img class='modicon' src='/icons/exec.png' alt="Create buttons to execute commonly used commands or edit files on your system." border="0"><span class="iconitem">Custom Commands</span></a></li>
+<li><a title="View, edit and change permissions on files and directories on your system with a Windows-like file manager." href="/file/index.cgi"><img class='modicon' src='/icons/fileman.png' alt="View, edit and change permissions on files and directories on your system with a Windows-like file manager." border="0"><span class="iconitem">File Manager</span></a></li>
+<li><a title="Connect to another HTTP server via a tunnel through the Webmin server." href="/tunnel/index.cgi"><img class='modicon' src='/icons/../tunnel/images/icon.gif' width='16' height='16'' alt="Connect to another HTTP server via a tunnel through the Webmin server." border="0"><span class="iconitem">HTTP Tunnel</span></a></li>
+<li><a title="Configure PHP settings for the whole system or invidivual Apache virtual servers." href="/phpini/index.cgi"><img class='modicon' src='/icons/../phpini/images/icon.gif' width='16' height='16'' alt="Configure PHP settings for the whole system or invidivual Apache virtual servers." border="0"><span class="iconitem">PHP Configuration</span></a></li>
+<li><a title="Install new Perl modules on your system, and view those already installed." href="/cpan/index.cgi"><img class='modicon' src='/icons/perl.png' alt="Install new Perl modules on your system, and view those already installed." border="0"><span class="iconitem">Perl Modules</span></a></li>
+<li><a title="Create .htaccess and htpasswd files to protect web-acessible directories." href="/htaccess-htpasswd/index.cgi"><img class='modicon' src='/icons/tresor.png' alt="Create .htaccess and htpasswd files to protect web-acessible directories." border="0"><span class="iconitem">Protected Web Directories</span></a></li>
+<li><a title="Login to your system with telnet or SSH." href="/telnet/index.cgi"><img class='modicon' src='/icons/multisync.png' alt="Login to your system with telnet or SSH." border="0"><span class="iconitem">SSH/Telnet Login</span></a></li>
+<li><a title="View the status of services on your system and on remote systems." href="/status/index.cgi"><img class='modicon' src='/icons/mon.png' alt="View the status of services on your system and on remote systems." border="0"><span class="iconitem">System and Server Status</span></a></li>
+<li><a title="Upload multiple files to the server, and download multiple URLs either immediately or in the background at a scheduled time." href="/updown/index.cgi"><img class='modicon' src='/icons/updown.png' alt="Upload multiple files to the server, and download multiple URLs either immediately or in the background at a scheduled time." border="0"><span class="iconitem">Upload and Download</span></a></li>
+</div></ul></li><li class="menuclosed"><a href="/?cat=system">System</a><ul><div class="menuitems"><li><a title="Setup scripts to be run at boot time from /etc/init.d or /etc/rc.local." href="/init/index.cgi"><img class='modicon' src='/icons/startup.png' alt="Setup scripts to be run at boot time from /etc/init.d or /etc/rc.local." border="0"><span class="iconitem">Bootup and Shutdown</span></a></li>
+<li><a title="Change the password of any user on the system." href="/passwd/index.cgi"><img class='modicon' src='/icons/passwd.png' alt="Change the password of any user on the system." border="0"><span class="iconitem">Change Passwords</span></a></li>
+<li><a title="Setup and edit user or group disk quotas for local filesystems." href="/quota/index.cgi"><img class='modicon' src='/icons/quota.png' alt="Setup and edit user or group disk quotas for local filesystems." border="0"><span class="iconitem">Disk Quotas</span></a></li>
+<li><a title="Mount filesystems and swap files usually configured in /etc/fstab or /etc/vfstab." href="/mount/index.cgi"><img class='modicon' src='/icons/diskmgr.png' alt="Mount filesystems and swap files usually configured in /etc/fstab or /etc/vfstab." border="0"><span class="iconitem">Disk and Network Filesystems</span></a></li>
+<li><a title="Backup and restore filesystems using the dump and restore family of commands." href="/fsdump/index.cgi"><img class='modicon' src='/icons/backup.png' alt="Backup and restore filesystems using the dump and restore family of commands." border="0"><span class="iconitem">Filesystem Backup</span></a></li>
+<li><a title="Configure low-level services to be run at boot time, and select the initial runlevel." href="/inittab/index.cgi"><img class='modicon' src='/icons/inittab.png' alt="Configure low-level services to be run at boot time, and select the initial runlevel." border="0"><span class="iconitem">Initial System Bootup</span></a></li>
+<li><a title="Set up the automatic rotation of Apache, Squid, Syslog and other log files." href="/logrotate/index.cgi"><img class='modicon' src='/icons/logrotate.png' alt="Set up the automatic rotation of Apache, Squid, Syslog and other log files." border="0"><span class="iconitem">Log File Rotation</span></a></li>
+<li><a title="Edit the /etc/mailcap file, which maps MIME types to handler programs" href="/mailcap/index.cgi"><img class='modicon' src='/icons/../mailcap/images/icon.gif' width='16' height='16'' alt="Edit the /etc/mailcap file, which maps MIME types to handler programs" border="0"><span class="iconitem">MIME Type Programs</span></a></li>
+<li><a title="List, kill and renice running processes on your system." href="/proc/index.cgi"><img class='modicon' src='/icons/services.png' alt="List, kill and renice running processes on your system." border="0"><span class="iconitem">Running Processes</span></a></li>
+<li><a title="Schedule the execution of one-off commands or scripts." href="/at/index.cgi"><img class='modicon' src='/icons/time.png' alt="Schedule the execution of one-off commands or scripts." border="0"><span class="iconitem">Scheduled Commands</span></a></li>
+<li><a title="Create, edit and delete Cron jobs." href="/cron/index.cgi"><img class='modicon' src='/icons/cron.png' alt="Create, edit and delete Cron jobs." border="0"><span class="iconitem">Scheduled Cron Jobs</span></a></li>
+<li><a title="Manage software packages on your system, and install new packages." href="/software/index.cgi"><img class='modicon' src='/icons/software.png' alt="Manage software packages on your system, and install new packages." border="0"><span class="iconitem">Software Packages</span></a></li>
+<li><a title="View man pages, HOWTOs and other package documentation." href="/man/index.cgi"><img class='modicon' src='/icons/man.png' alt="View man pages, HOWTOs and other package documentation." border="0"><span class="iconitem">System Documentation</span></a></li>
+<li><a title="Configure the syslog server on your system and view its log files." href="/syslog/index.cgi"><img class='modicon' src='/icons/log.png' alt="Configure the syslog server on your system and view its log files." border="0"><span class="iconitem">System Logs</span></a></li>
+<li><a title="Configure the Syslog-NG server on your system and view its log files." href="/syslog-ng/index.cgi"><img class='modicon' src='/icons/../syslog-ng/images/icon.gif' width='16' height='16'' alt="Configure the Syslog-NG server on your system and view its log files." border="0"><span class="iconitem">System Logs NG</span></a></li>
+<li><a title="Create and edit Unix users and groups from the /etc/passwd and /etc/group files." href="/useradmin/index.cgi"><img class='modicon' src='/icons/users.png' alt="Create and edit Unix users and groups from the /etc/passwd and /etc/group files." border="0"><span class="iconitem">Users and Groups</span></a></li>
+</div></ul></li><li class="menuclosed"><a href="/?cat=hardware">Hardware</a><ul><div class="menuitems"><li><a title="Burn data CDs from ISO images or selected directories." href="/burner/index.cgi"><img class='modicon' src='/icons/burner.png' alt="Burn data CDs from ISO images or selected directories." border="0"><span class="iconitem">CD Burner</span></a></li>
+<li><a title="Edit kernels and partitions selectable at boot time with LILO." href="/lilo/index.cgi"><img class='modicon' src='/icons/boot.png' alt="Edit kernels and partitions selectable at boot time with LILO." border="0"><span class="iconitem">Linux Bootup Configuration</span></a></li>
+<li><a title="Create RAID 0, 1, 4, 5 and linear devices on a Linux system." href="/raid/index.cgi"><img class='modicon' src='/icons/diskmgr.png' alt="Create RAID 0, 1, 4, 5 and linear devices on a Linux system." border="0"><span class="iconitem">Linux RAID</span></a></li>
+<li><a title="Configure volume groups, physical volumes and logical volumes for Linux LVM." href="/lvm/index.cgi"><img class='modicon' src='/icons/diskmgr.png' alt="Configure volume groups, physical volumes and logical volumes for Linux LVM." border="0"><span class="iconitem">Logical Volume Management</span></a></li>
+<li><a title="Create and edit paritions on local SCSI and IDE disks on Linux." href="/fdisk/index.cgi"><img class='modicon' src='/icons/diskmgr.png' alt="Create and edit paritions on local SCSI and IDE disks on Linux." border="0"><span class="iconitem">Partitions on Local Disks</span></a></li>
+<li><a title="Create and edit local and remote printers. Supports Windows print servers and Ghostscript print drivers." href="/lpadmin/index.cgi"><img class='modicon' src='/icons/printer.png' alt="Create and edit local and remote printers. Supports Windows print servers and Ghostscript print drivers." border="0"><span class="iconitem">Printer Administration</span></a></li>
+<li><a title="Check the status of IDE drives to detect problems and potential failures." href="/smart-status/index.cgi"><img class='modicon' src='/icons/../smart-status/images/icon.gif' width='16' height='16'' alt="Check the status of IDE drives to detect problems and potential failures." border="0"><span class="iconitem">SMART Drive Status</span></a></li>
+<li><a title="Set the sytem and hardware time either manually or from a time server." href="/time/index.cgi"><img class='modicon' src='/icons/time.png' alt="Set the sytem and hardware time either manually or from a time server." border="0"><span class="iconitem">System Time</span></a></li>
+</div></ul></li><li class="menuclosed"><a href="/?cat=servers">Servers</a><ul><div class="menuitems"><li><a title="Configure almost all Apache directives and features." href="/apache/index.cgi"><img class='modicon' src='/icons/apache.png' alt="Configure almost all Apache directives and features." border="0"><span class="iconitem">Apache Webserver</span></a></li>
+<li><a title="Setup databases, tables and permissions in your MySQL database server." href="/mysql/index.cgi"><img class='modicon' src='/icons/mysql2.png' alt="Setup databases, tables and permissions in your MySQL database server." border="0"><span class="iconitem">MySQL Database Server</span></a></li>
+<li><a title="Setup the SSH server for remote secure logins." href="/sshd/index.cgi"><img class='modicon' src='/icons/ssh2.png' alt="Setup the SSH server for remote secure logins." border="0"><span class="iconitem">SSH Server</span></a></li>
+<li><a title="Create and edit samba file and print shares." href="/samba/index.cgi"><img class='modicon' src='/icons/shares.png' alt="Create and edit samba file and print shares." border="0"><span class="iconitem">Samba Windows File Sharing</span></a></li>
+<li><a title="Manage sendmail aliases, masquerading, address rewriting and other features." href="/sendmail/index.cgi"><img class='modicon' src='/icons/batorng.png' alt="Manage sendmail aliases, masquerading, address rewriting and other features." border="0"><span class="iconitem">Sendmail Mail Server</span></a></li>
+<li><a title="Set up and configure SpamAssassin to filter email received by your system." href="/spam/index.cgi"><img class='modicon' src='/icons/mail_filter.png' alt="Set up and configure SpamAssassin to filter email received by your system." border="0"><span class="iconitem">SpamAssassin Mail Filter</span></a></li>
+</div></ul></li><li class="menuclosed"><a href="/?cat=net">Networking</a><ul><div class="menuitems"><li><a title="Set up a PPP client with the RP-PPPoE package." href="/adsl-client/index.cgi"><img class='modicon' src='/icons/adsl.png' alt="Set up a PPP client with the RP-PPPoE package." border="0"><span class="iconitem">ADSL Client</span></a></li>
+<li><a title="View reports on bandwidth usage by host, port, protocol and time on a Linux system." href="/bandwidth/index.cgi"><img class='modicon' src='/icons/../bandwidth/images/icon.gif' width='16' height='16'' alt="View reports on bandwidth usage by host, port, protocol and time on a Linux system." border="0"><span class="iconitem">Bandwidth Monitoring</span></a></li>
+<li><a title="Edit servers handled by Xinetd, a replacement for inetd." href="/xinetd/index.cgi"><img class='modicon' src='/icons/inet.png' alt="Edit servers handled by Xinetd, a replacement for inetd." border="0"><span class="iconitem">Extended Internet Services</span></a></li>
+<li><a title="Set up a client or server for an IPsec VPN using FreeSWAN." href="/ipsec/index.cgi"><img class='modicon' src='/icons/netserv.png' alt="Set up a client or server for an IPsec VPN using FreeSWAN." border="0"><span class="iconitem">IPsec VPN Configuration</span></a></li>
+<li><a title="Edit services in /etc/inetd.conf, /etc/services and /etc/rpc." href="/inetd/index.cgi"><img class='modicon' src='/icons/inet.png' alt="Edit services in /etc/inetd.conf, /etc/services and /etc/rpc." border="0"><span class="iconitem">Internet Services and Protocols</span></a></li>
+<li><a title="Configure a Linux firewall using iptables. Allows the editing of all tables, chains, rules and options." href="/firewall/index.cgi"><img class='modicon' src='/icons/firewall.png' alt="Configure a Linux firewall using iptables. Allows the editing of all tables, chains, rules and options." border="0"><span class="iconitem">Linux Firewall</span></a></li>
+<li><a title="Edit NFS file shares defined in /etc/exports." href="/exports/index.cgi"><img class='modicon' src='/icons/mngshares.png' alt="Edit NFS file shares defined in /etc/exports." border="0"><span class="iconitem">NFS Exports</span></a></li>
+<li><a title="Configure boot time and active interfaces, DNS, routing and /etc/hosts." href="/net/index.cgi"><img class='modicon' src='/icons/net.png' alt="Configure boot time and active interfaces, DNS, routing and /etc/hosts." border="0"><span class="iconitem">Network Configuration</span></a></li>
+<li><a title="Set up a dialin server using mgetty and PPP." href="/pap/index.cgi"><img class='modicon' src='/icons/phone.png' alt="Set up a dialin server using mgetty and PPP." border="0"><span class="iconitem">PPP Dialin Server</span></a></li>
+<li><a title="Configure the WV-Dial package to connect to the Internet with a modem PPP connection" href="/ppp-client/index.cgi"><img class='modicon' src='/icons/phone.png' alt="Configure the WV-Dial package to connect to the Internet with a modem PPP connection" border="0"><span class="iconitem">PPP Dialup Client</span></a></li>
+<li><a title="Configure and establish connections to a VPN server using the PPTP protocol." href="/pptp-client/index.cgi"><img class='modicon' src='/icons/netclient.png' alt="Configure and establish connections to a VPN server using the PPTP protocol." border="0"><span class="iconitem">PPTP VPN Client</span></a></li>
+<li><a title="Set up your system as a PPTP server so that Linux or Windows VPN clients can connect." href="/pptp-server/index.cgi"><img class='modicon' src='/icons/netserv.png' alt="Set up your system as a PPTP server so that Linux or Windows VPN clients can connect." border="0"><span class="iconitem">PPTP VPN Server</span></a></li>
+<li><a title="Setup SSL tunnels to encrypt services like POP3 and IMAP, using stunnel run from inetd." href="/stunnel/index.cgi"><img class='modicon' src='/icons/ssl2.png' alt="Setup SSL tunnels to encrypt services like POP3 and IMAP, using stunnel run from inetd." border="0"><span class="iconitem">SSL Tunnels</span></a></li>
+<li><a title="Configure the TCP wrappers networking access control files" href="/tcpwrappers/index.cgi"><img class='modicon' src='/icons/../tcpwrappers/images/icon.gif' width='16' height='16'' alt="Configure the TCP wrappers networking access control files" border="0"><span class="iconitem">TCP Wrappers</span></a></li>
+<li><a title="Manage the NFS ID mapping daemon." href="/idmapd/index.cgi"><img class='modicon' src='/icons/../idmapd/images/icon.gif' width='16' height='16'' alt="Manage the NFS ID mapping daemon." border="0"><span class="iconitem">idmapd daemon</span></a></li>
+</div></ul></li>
+<li style="background: url(/theme-stressfree/images/searchnotselected.gif);" id="searchbutton"><a href="#" onclick="viewSearch()">Search</a></li>
+<li id="logout"><a href='/session_login.cgi?logout=1'>Logout</a></li></ul></div>
+
+<div style="display: none;" id="searchform"><ul><li class="searchbox"><input autocomplete="off" type="text" id="searchfield" name="searchfield" size="25"/></li><li class="searchtext"><p>Search:</p></li></ul></div><div class="autocomplete" id="searchfield_choices"></div><script language="javascript">
+<!--
+new Ajax.Autocompleter("searchfield", "searchfield_choices", "/search.cgi", {paramName: "Search", minChars: 2, afterUpdateElement: openUrl});
+
+-->
+</script><div id="content">
+<div id="header">
+<div id="headertitle"><h1>Security Warning</h1>
+</div>
+<div id="headerservers"></div>
+</div>
+<div id="layout">
+<table id="contenttable"><tr><td id="contentblock"><div id="contentcontainer">
+<div id="sysstats-open"><a href="javascript:switchSidebar()">Show sidebar &raquo;</a>
+</div>
+<div id="maincontent">
+<b>Warning!</b> Webmin has detected that the program <tt>http://localhost:10000/mysql/csv.cgi/main.csv</tt> was linked to from an unknown URL, which appears to be outside the Webmin server. This may be an attempt to trick your server into executing a dangerous command.<p>
+If your browser does not send the <tt>Referer</tt> header needed, you can turn off this check as follows :<ul><li>Login to Webmin normally.<li>Go to the <b>Webmin Configuration</b> module.<li>Click on the Trusted Referrers icon.<li>Check the <b>Trust links from unknown referrers</b> box, and click <b>Save</b>.</ul><p>
+Alternately, you can configure Webmin to allow links from unknown referers by :<ul><li>Login as <tt>root</tt>, and edit the <tt>/etc/webmin/config</tt> file.<li>Find the line <tt>referers_none=1</tt> and change it to <tt>referers_none=0</tt>.<li>Save the file.</ul><p>
+<p>
+<br>
+
+</div></div>
+</td><td id="sidebar" class="sidebar-hidden">
+<div id="sidebar-info"></div>
+</td></tr></table>
+</div>
+
+<div id="footer">root</div>
+</div></div>
+ 
+</body></html>

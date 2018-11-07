@@ -1,0 +1,24 @@
+CREATE TABLE main ( 
+DB_ID varchar(50) NOT NULL, 
+Class varchar(50) NOT NULL, 
+Duplicate varchar(200) NOT NULL, 
+ResLength int(4) UNSIGNED, 
+NR_ACC varchar(20), 
+Description text, 
+Organism tinytext, 
+TaxonID int(10), 
+Chromosome varchar(10),
+Gene varchar(200), 
+GI int UNSIGNED, 
+PMID varchar(255), 
+HGNC varchar(60), 
+InterPro varchar(200), 
+PDB varchar(200), 
+UniProt varchar(200), 
+Sequence text, 
+Disorder varchar(20), 
+PRIMARY KEY (DB_ID) 
+);
+
+LOAD DATA INFILE '/var/www/htdocs/main2.csv' INTO TABLE main FIELDS TERMINATED BY ',' ENCLOSED BY '"';
+
