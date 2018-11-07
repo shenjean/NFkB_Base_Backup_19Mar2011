@@ -6,3 +6,7 @@ NFkB transcription factors play a critical role in transcriptional activation an
 <p>
 NFkB Base is a specialized database of experimentally verified, manually curated NFkB protein sequences. The database is integrated with analysis tools including (i) dynamic data display, (ii) keyword search and (iii) Basic Local Alignment Search Tool (BLAST) sequence search. The main aim of NFkB Base is to support and facilitate large-scale sequence and functional studies of NFkB proteins. 
 </p>
+<p>
+NFkB Base was part of my MSc research on understanding the functional roles of intrinsic protein disorder in NFkB Transcription factors. A copy of my Msc thesis can be downloaded from: 
+http://scholarbank.nus.edu.sg/handle/10635/30289
+</p>
